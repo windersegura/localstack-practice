@@ -15,7 +15,7 @@ variable "public_subnet_cidr" {
 
 variable "ami_id" {
   description = "AMI to launch. LocalStack accepts any string — use a real AMI ID format"
-  default     = "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 (symbolic in LocalStack)
+  default     = "ami-07b643b5e45e"  # Amazon Linux 2 (symbolic in LocalStack)
 }
 
 variable "instance_type" {
